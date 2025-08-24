@@ -1,9 +1,3 @@
---!native
---!optimize 2
-
-print("[Lowhub] Loading...")
-if not ExecutorSupport then print("[LowHub] Loading stopped, please use the official loadstring for mspaint. (ERROR: ExecutorSupport == nil)") return end
-if getgenv().mspaint_loaded then print("[LowHub] Loading stopped. (ERROR: Already loaded)") return end
 
 --// Services \\--
 local Lighting = game:GetService("Lighting")
